@@ -40,3 +40,4 @@ driver.findElement(By.id("count")).sendKeys("199")
 driver.findElement(By.id('startsms')).sendKeys(Key.RETURN)
 
 time.sleep(120)
+driver.quit()
