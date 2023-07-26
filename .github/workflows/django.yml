@@ -27,4 +27,4 @@ jobs:
         pip install chromedriver-autoinstaller selenium pyvirtualdisplay
     - name: Run Tests
       run: |
-        python selenium-template.py
+        python Selenium-Template.py
